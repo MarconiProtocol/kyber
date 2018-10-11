@@ -3,8 +3,8 @@ package bls
 import (
 	"testing"
 
-	"github.com/dedis/kyber/pairing/bn256"
-	"github.com/dedis/kyber/util/random"
+	"gitlab.neji.vm.tc/marconi/kyber/pairing/bn256"
+	"gitlab.neji.vm.tc/marconi/kyber/util/random"
 	"github.com/stretchr/testify/require"
 )
 

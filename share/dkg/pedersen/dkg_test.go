@@ -4,10 +4,10 @@ import (
 	"crypto/rand"
 	"testing"
 
-	"github.com/dedis/kyber"
-	"github.com/dedis/kyber/group/edwards25519"
-	"github.com/dedis/kyber/share"
-	vss "github.com/dedis/kyber/share/vss/pedersen"
+	"gitlab.neji.vm.tc/marconi/kyber"
+	"gitlab.neji.vm.tc/marconi/kyber/group/edwards25519"
+	"gitlab.neji.vm.tc/marconi/kyber/share"
+	vss "gitlab.neji.vm.tc/marconi/kyber/share/vss/pedersen"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

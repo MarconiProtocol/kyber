@@ -3,7 +3,7 @@ package edwards25519
 import (
 	"testing"
 
-	"github.com/dedis/kyber/util/test"
+	"gitlab.neji.vm.tc/marconi/kyber/util/test"
 )
 
 var tSuite = NewBlakeSHA256Ed25519()

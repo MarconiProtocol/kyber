@@ -8,13 +8,12 @@ import (
 	"hash"
 	"io"
 	"reflect"
+	"errors"
 
-	"github.com/dedis/fixbuf"
-	"github.com/dedis/kyber"
-
-	"github.com/dedis/kyber/group/internal/marshalling"
-	"github.com/dedis/kyber/util/random"
-	"github.com/dedis/kyber/xof/blake2xb"
+	"gitlab.neji.vm.tc/marconi/kyber"
+	"gitlab.neji.vm.tc/marconi/kyber/group/internal/marshalling"
+	"gitlab.neji.vm.tc/marconi/kyber/util/random"
+	"gitlab.neji.vm.tc/marconi/kyber/xof/blake2xb"
 )
 
 type SuiteCurve25519 struct {
@@ -31,11 +30,11 @@ func (s *SuiteCurve25519) XOF(seed []byte) kyber.XOF {
 }
 
 func (s *SuiteCurve25519) Read(r io.Reader, objs ...interface{}) error {
-	return fixbuf.Read(r, s, objs)
+	return errors.New("function not supported")
 }
 
 func (s *SuiteCurve25519) Write(w io.Writer, objs ...interface{}) error {
-	return fixbuf.Write(w, objs)
+	return errors.New("function not supported")
 }
 
 func (s *SuiteCurve25519) New(t reflect.Type) interface{} {
@@ -47,7 +46,7 @@ func (s *SuiteCurve25519) RandomStream() cipher.Stream {
 }
 
 // NewBlakeSHA256Curve25519 returns a cipher suite based on package
-// github.com/dedis/kyber/xof/blake2xb, SHA-256, and Curve25519.
+// gitlab.neji.vm.tc/marconi/kyber/xof/blake2xb, SHA-256, and Curve25519.
 //
 // If fullGroup is false, then the group is the prime-order subgroup.
 //

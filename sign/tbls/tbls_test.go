@@ -3,9 +3,9 @@ package tbls
 import (
 	"testing"
 
-	"github.com/dedis/kyber/pairing/bn256"
-	"github.com/dedis/kyber/share"
-	"github.com/dedis/kyber/sign/bls"
+	"gitlab.neji.vm.tc/marconi/kyber/pairing/bn256"
+	"gitlab.neji.vm.tc/marconi/kyber/share"
+	"gitlab.neji.vm.tc/marconi/kyber/sign/bls"
 	"github.com/stretchr/testify/require"
 )
 

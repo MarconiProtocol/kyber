@@ -1,3 +1,7 @@
+#### This repository is forked from https://github.com/dedis/kyber
+
+**NOTE**: We removed dependencies to the fixbuf library. It was only used to marshal and unmarshal Suite objects, which was something we did not need to use.
+
 [![Docs](https://img.shields.io/badge/docs-current-brightgreen.svg)](https://godoc.org/github.com/dedis/kyber)
 [![Build Status](https://travis-ci.org/dedis/kyber.svg?branch=master)](https://travis-ci.org/dedis/kyber)
 

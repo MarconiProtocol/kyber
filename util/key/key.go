@@ -4,7 +4,7 @@ package key
 import (
 	"crypto/cipher"
 
-	"github.com/dedis/kyber"
+	"gitlab.neji.vm.tc/marconi/kyber"
 )
 
 // Generator is a type that needs to implement a special case in order

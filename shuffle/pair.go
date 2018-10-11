@@ -24,9 +24,9 @@ import (
 	"encoding/binary"
 	"errors"
 
-	"github.com/dedis/kyber"
-	"github.com/dedis/kyber/proof"
-	"github.com/dedis/kyber/util/random"
+	"gitlab.neji.vm.tc/marconi/kyber"
+	"gitlab.neji.vm.tc/marconi/kyber/proof"
+	"gitlab.neji.vm.tc/marconi/kyber/util/random"
 )
 
 // Suite wraps the functionalities needed by the shuffle/ package. These are the

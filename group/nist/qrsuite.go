@@ -9,13 +9,12 @@ import (
 	"io"
 	"math/big"
 	"reflect"
+	"errors"
 
-	"github.com/dedis/fixbuf"
-
-	"github.com/dedis/kyber"
-	"github.com/dedis/kyber/group/internal/marshalling"
-	"github.com/dedis/kyber/util/random"
-	"github.com/dedis/kyber/xof/blake2xb"
+	"gitlab.neji.vm.tc/marconi/kyber"
+	"gitlab.neji.vm.tc/marconi/kyber/group/internal/marshalling"
+	"gitlab.neji.vm.tc/marconi/kyber/util/random"
+	"gitlab.neji.vm.tc/marconi/kyber/xof/blake2xb"
 )
 
 type QrSuite struct {
@@ -36,11 +35,11 @@ func (s QrSuite) RandomStream() cipher.Stream {
 }
 
 func (s *QrSuite) Read(r io.Reader, objs ...interface{}) error {
-	return fixbuf.Read(r, s, objs)
+	return errors.New("function not supported")
 }
 
 func (s *QrSuite) Write(w io.Writer, objs ...interface{}) error {
-	return fixbuf.Write(w, objs)
+	return errors.New("function not supported")
 }
 
 func (s *QrSuite) New(t reflect.Type) interface{} {
@@ -48,7 +47,7 @@ func (s *QrSuite) New(t reflect.Type) interface{} {
 }
 
 // NewBlakeSHA256QR512 returns a cipher suite based on package
-// github.com/dedis/kyber/xof/blake2xb, SHA-256, and a residue group of
+// gitlab.neji.vm.tc/marconi/kyber/xof/blake2xb, SHA-256, and a residue group of
 // quadratic residues modulo a 512-bit prime.
 //
 // This group size should be used only for testing and experimentation.

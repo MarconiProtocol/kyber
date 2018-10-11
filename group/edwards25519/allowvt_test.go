@@ -5,7 +5,7 @@ package edwards25519
 import (
 	"testing"
 
-	"github.com/dedis/kyber"
+	"gitlab.neji.vm.tc/marconi/kyber"
 )
 
 func TestVartime(t *testing.T) {

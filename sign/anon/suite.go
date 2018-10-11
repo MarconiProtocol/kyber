@@ -1,7 +1,7 @@
 package anon
 
 import (
-	"github.com/dedis/kyber"
+	"gitlab.neji.vm.tc/marconi/kyber"
 )
 
 // Suite represents the set of functionalities needed by the package anon.

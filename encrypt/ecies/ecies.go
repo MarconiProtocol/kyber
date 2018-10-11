@@ -9,8 +9,8 @@ import (
 	"errors"
 	"hash"
 
-	"github.com/dedis/kyber"
-	"github.com/dedis/kyber/util/random"
+	"gitlab.neji.vm.tc/marconi/kyber"
+	"gitlab.neji.vm.tc/marconi/kyber/util/random"
 	"golang.org/x/crypto/hkdf"
 )
 

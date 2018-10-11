@@ -3,9 +3,9 @@
 package suites
 
 import (
-	"github.com/dedis/kyber/group/curve25519"
-	"github.com/dedis/kyber/group/nist"
-	"github.com/dedis/kyber/pairing/bn256"
+	"gitlab.neji.vm.tc/marconi/kyber/group/curve25519"
+	"gitlab.neji.vm.tc/marconi/kyber/group/nist"
+	"gitlab.neji.vm.tc/marconi/kyber/pairing/bn256"
 )
 
 func init() {

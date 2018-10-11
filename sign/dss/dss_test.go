@@ -4,11 +4,11 @@ import (
 	"crypto/rand"
 	"testing"
 
-	"github.com/dedis/kyber"
-	"github.com/dedis/kyber/group/edwards25519"
-	dkg "github.com/dedis/kyber/share/dkg/rabin"
-	"github.com/dedis/kyber/sign/eddsa"
-	"github.com/dedis/kyber/sign/schnorr"
+	"gitlab.neji.vm.tc/marconi/kyber"
+	"gitlab.neji.vm.tc/marconi/kyber/group/edwards25519"
+	dkg "gitlab.neji.vm.tc/marconi/kyber/share/dkg/rabin"
+	"gitlab.neji.vm.tc/marconi/kyber/sign/eddsa"
+	"gitlab.neji.vm.tc/marconi/kyber/sign/schnorr"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

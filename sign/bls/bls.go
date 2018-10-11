@@ -7,8 +7,8 @@ import (
 	"crypto/cipher"
 	"errors"
 
-	"github.com/dedis/kyber"
-	"github.com/dedis/kyber/pairing"
+	"gitlab.neji.vm.tc/marconi/kyber"
+	"gitlab.neji.vm.tc/marconi/kyber/pairing"
 )
 
 // NewKeyPair creates a new BLS signing key pair. The private key x is a scalar

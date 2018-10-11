@@ -16,7 +16,7 @@ import (
 	"errors"
 	"strings"
 
-	"github.com/dedis/kyber"
+	"gitlab.neji.vm.tc/marconi/kyber"
 )
 
 // Some error definitions

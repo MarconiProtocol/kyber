@@ -1,8 +1,8 @@
 package test
 
 import (
-	"github.com/dedis/kyber"
-	"github.com/dedis/kyber/util/random"
+	"gitlab.neji.vm.tc/marconi/kyber"
+	"gitlab.neji.vm.tc/marconi/kyber/util/random"
 )
 
 // GroupBench is a generic benchmark suite for kyber.groups.

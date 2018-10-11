@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"errors"
 
-	"github.com/dedis/kyber"
+	"gitlab.neji.vm.tc/marconi/kyber"
 )
 
 // unlinkable ring signature

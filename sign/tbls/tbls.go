@@ -14,9 +14,9 @@ import (
 	"bytes"
 	"encoding/binary"
 
-	"github.com/dedis/kyber/pairing"
-	"github.com/dedis/kyber/share"
-	"github.com/dedis/kyber/sign/bls"
+	"gitlab.neji.vm.tc/marconi/kyber/pairing"
+	"gitlab.neji.vm.tc/marconi/kyber/share"
+	"gitlab.neji.vm.tc/marconi/kyber/sign/bls"
 )
 
 // SigShare encodes a threshold BLS signature share Si = i || v where the 2-byte

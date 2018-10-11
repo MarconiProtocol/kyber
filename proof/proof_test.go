@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/dedis/kyber"
-	"github.com/dedis/kyber/group/edwards25519"
-	"github.com/dedis/kyber/xof/blake2xb"
+	"gitlab.neji.vm.tc/marconi/kyber"
+	"gitlab.neji.vm.tc/marconi/kyber/group/edwards25519"
+	"gitlab.neji.vm.tc/marconi/kyber/xof/blake2xb"
 )
 
 func TestRep(t *testing.T) {

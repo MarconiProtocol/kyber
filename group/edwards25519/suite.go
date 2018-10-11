@@ -3,15 +3,15 @@ package edwards25519
 import (
 	"crypto/cipher"
 	"crypto/sha256"
+	"errors"
 	"hash"
 	"io"
 	"reflect"
 
-	"github.com/dedis/fixbuf"
-	"github.com/dedis/kyber"
-	"github.com/dedis/kyber/group/internal/marshalling"
-	"github.com/dedis/kyber/util/random"
-	"github.com/dedis/kyber/xof/blake2xb"
+	"gitlab.neji.vm.tc/marconi/kyber"
+	"gitlab.neji.vm.tc/marconi/kyber/group/marshalling"
+	"gitlab.neji.vm.tc/marconi/kyber/util/random"
+	"gitlab.neji.vm.tc/marconi/kyber/xof/blake2xb"
 )
 
 // SuiteEd25519 implements some basic functionalities such as Group, HashFactory,
@@ -32,11 +32,11 @@ func (s *SuiteEd25519) XOF(key []byte) kyber.XOF {
 }
 
 func (s *SuiteEd25519) Read(r io.Reader, objs ...interface{}) error {
-	return fixbuf.Read(r, s, objs...)
+	return errors.New("function not supported")
 }
 
 func (s *SuiteEd25519) Write(w io.Writer, objs ...interface{}) error {
-	return fixbuf.Write(w, objs)
+	return errors.New("function not supported")
 }
 
 // New implements the kyber.Encoding interface
@@ -54,7 +54,7 @@ func (s *SuiteEd25519) RandomStream() cipher.Stream {
 }
 
 // NewBlakeSHA256Ed25519 returns a cipher suite based on package
-// github.com/dedis/kyber/xof/blake2xb, SHA-256, and the Ed25519 curve.
+// gitlab.neji.vm.tc/marconi/kyber/xof/blake2xb, SHA-256, and the Ed25519 curve.
 // It produces cryptographically random numbers via package crypto/rand.
 func NewBlakeSHA256Ed25519() *SuiteEd25519 {
 	suite := new(SuiteEd25519)
@@ -62,7 +62,7 @@ func NewBlakeSHA256Ed25519() *SuiteEd25519 {
 }
 
 // NewBlakeSHA256Ed25519WithRand returns a cipher suite based on package
-// github.com/dedis/kyber/xof/blake2xb, SHA-256, and the Ed25519 curve.
+// gitlab.neji.vm.tc/marconi/kyber/xof/blake2xb, SHA-256, and the Ed25519 curve.
 // It produces cryptographically random numbers via the provided stream r.
 func NewBlakeSHA256Ed25519WithRand(r cipher.Stream) *SuiteEd25519 {
 	suite := new(SuiteEd25519)

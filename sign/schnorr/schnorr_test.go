@@ -3,9 +3,9 @@ package schnorr
 import (
 	"testing"
 
-	"github.com/dedis/kyber/group/edwards25519"
-	"github.com/dedis/kyber/sign/eddsa"
-	"github.com/dedis/kyber/util/key"
+	"gitlab.neji.vm.tc/marconi/kyber/group/edwards25519"
+	"gitlab.neji.vm.tc/marconi/kyber/sign/eddsa"
+	"gitlab.neji.vm.tc/marconi/kyber/util/key"
 	"github.com/stretchr/testify/assert"
 )
 

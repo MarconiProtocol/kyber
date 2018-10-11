@@ -1,6 +1,6 @@
 package pairing
 
-import "github.com/dedis/kyber"
+import "gitlab.neji.vm.tc/marconi/kyber"
 
 // Suite interface represents a triplet of elliptic curve groups (G₁, G₂
 // and GT) such that there exists a function e(g₁ˣ,g₂ʸ)=gTˣʸ (where gₓ is a

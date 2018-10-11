@@ -5,10 +5,10 @@ package dkg
 import (
 	"errors"
 
-	"github.com/dedis/kyber"
+	"gitlab.neji.vm.tc/marconi/kyber"
 
-	"github.com/dedis/kyber/share"
-	vss "github.com/dedis/kyber/share/vss/pedersen"
+	"gitlab.neji.vm.tc/marconi/kyber/share"
+	vss "gitlab.neji.vm.tc/marconi/kyber/share/vss/pedersen"
 )
 
 // Suite wraps the functionalities needed by the dkg package

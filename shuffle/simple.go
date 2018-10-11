@@ -4,8 +4,8 @@ import (
 	"crypto/cipher"
 	"errors"
 
-	"github.com/dedis/kyber"
-	"github.com/dedis/kyber/proof"
+	"gitlab.neji.vm.tc/marconi/kyber"
+	"gitlab.neji.vm.tc/marconi/kyber/proof"
 )
 
 // XX the Zs in front of some field names are a kludge to make them

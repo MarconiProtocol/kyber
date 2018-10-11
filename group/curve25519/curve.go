@@ -9,9 +9,9 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/dedis/kyber"
-	"github.com/dedis/kyber/group/mod"
-	"github.com/dedis/kyber/util/random"
+	"gitlab.neji.vm.tc/marconi/kyber"
+	"gitlab.neji.vm.tc/marconi/kyber/group/mod"
+	"gitlab.neji.vm.tc/marconi/kyber/util/random"
 )
 
 var zero = big.NewInt(0)

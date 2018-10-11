@@ -2,7 +2,7 @@
 package anon
 
 import (
-	"github.com/dedis/kyber"
+	"gitlab.neji.vm.tc/marconi/kyber"
 )
 
 // Set represents an explicit anonymity set

@@ -3,14 +3,14 @@ package bn256
 import (
 	"crypto/cipher"
 	"crypto/sha256"
+	"errors"
 	"hash"
 	"io"
 	"reflect"
 
-	"github.com/dedis/fixbuf"
-	"github.com/dedis/kyber"
-	"github.com/dedis/kyber/util/random"
-	"github.com/dedis/kyber/xof/blake2xb"
+	"gitlab.neji.vm.tc/marconi/kyber"
+	"gitlab.neji.vm.tc/marconi/kyber/util/random"
+	"gitlab.neji.vm.tc/marconi/kyber/xof/blake2xb"
 )
 
 // Suite implements the pairing.Suite interface for the BN256 bilinear pairing.
@@ -123,12 +123,12 @@ func (c *commonSuite) New(t reflect.Type) interface{} {
 
 // Read is the default implementation of kyber.Encoding interface Read.
 func (c *commonSuite) Read(r io.Reader, objs ...interface{}) error {
-	return fixbuf.Read(r, c, objs...)
+	return errors.New("function not supported")
 }
 
 // Write is the default implementation of kyber.Encoding interface Write.
 func (c *commonSuite) Write(w io.Writer, objs ...interface{}) error {
-	return fixbuf.Write(w, objs)
+	return errors.New("function not supported")
 }
 
 // Hash returns a newly instantiated sha256 hash function.

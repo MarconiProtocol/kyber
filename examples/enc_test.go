@@ -3,9 +3,9 @@ package examples
 import (
 	"fmt"
 
-	"github.com/dedis/kyber"
-	"github.com/dedis/kyber/group/edwards25519"
-	"github.com/dedis/kyber/util/random"
+	"gitlab.neji.vm.tc/marconi/kyber"
+	"gitlab.neji.vm.tc/marconi/kyber/group/edwards25519"
+	"gitlab.neji.vm.tc/marconi/kyber/util/random"
 )
 
 func ElGamalEncrypt(group kyber.Group, pubkey kyber.Point, message []byte) (

@@ -6,8 +6,8 @@ import (
 	"errors"
 	"io"
 
-	"github.com/dedis/kyber"
-	"github.com/dedis/kyber/group/mod"
+	"gitlab.neji.vm.tc/marconi/kyber"
+	"gitlab.neji.vm.tc/marconi/kyber/group/mod"
 )
 
 type pointG1 struct {

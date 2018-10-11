@@ -4,8 +4,8 @@ import (
 	"crypto/cipher"
 	"crypto/sha512"
 
-	"github.com/dedis/kyber"
-	"github.com/dedis/kyber/util/random"
+	"gitlab.neji.vm.tc/marconi/kyber"
+	"gitlab.neji.vm.tc/marconi/kyber/util/random"
 )
 
 // Curve represents the Ed25519 group.

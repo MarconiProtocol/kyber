@@ -7,7 +7,7 @@ import (
 	"io"
 	"reflect"
 
-	"github.com/dedis/kyber"
+	"gitlab.neji.vm.tc/marconi/kyber"
 )
 
 // PointMarshalTo provides a generic implementation of Point.EncodeTo

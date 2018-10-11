@@ -19,10 +19,10 @@ import (
 	"crypto/sha512"
 	"errors"
 
-	"github.com/dedis/kyber"
-	"github.com/dedis/kyber/share"
-	"github.com/dedis/kyber/sign/eddsa"
-	"github.com/dedis/kyber/sign/schnorr"
+	"gitlab.neji.vm.tc/marconi/kyber"
+	"gitlab.neji.vm.tc/marconi/kyber/share"
+	"gitlab.neji.vm.tc/marconi/kyber/sign/eddsa"
+	"gitlab.neji.vm.tc/marconi/kyber/sign/schnorr"
 )
 
 // Suite represents the functionalities needed by the dss package

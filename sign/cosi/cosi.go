@@ -43,7 +43,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/dedis/kyber"
+	"gitlab.neji.vm.tc/marconi/kyber"
 )
 
 // Commit returns a random scalar v, generated from the given suite,

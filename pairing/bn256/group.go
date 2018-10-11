@@ -3,8 +3,8 @@ package bn256
 import (
 	"crypto/cipher"
 
-	"github.com/dedis/kyber"
-	"github.com/dedis/kyber/group/mod"
+	"gitlab.neji.vm.tc/marconi/kyber"
+	"gitlab.neji.vm.tc/marconi/kyber/group/mod"
 )
 
 type groupG1 struct {
