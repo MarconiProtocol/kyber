@@ -5,10 +5,10 @@ package curve25519
 import (
 	"testing"
 
-	"gitlab.neji.vm.tc/marconi/kyber"
-	"gitlab.neji.vm.tc/marconi/kyber/group/edwards25519"
-	"gitlab.neji.vm.tc/marconi/kyber/util/random"
-	"gitlab.neji.vm.tc/marconi/kyber/util/test"
+	"github.com/MarconiProtocol/kyber"
+	"github.com/MarconiProtocol/kyber/group/edwards25519"
+	"github.com/MarconiProtocol/kyber/util/random"
+	"github.com/MarconiProtocol/kyber/util/test"
 )
 
 var testSuite = NewBlakeSHA256Curve25519(false)

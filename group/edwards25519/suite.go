@@ -8,10 +8,10 @@ import (
 	"io"
 	"reflect"
 
-	"gitlab.neji.vm.tc/marconi/kyber"
-	"gitlab.neji.vm.tc/marconi/kyber/group/marshalling"
-	"gitlab.neji.vm.tc/marconi/kyber/util/random"
-	"gitlab.neji.vm.tc/marconi/kyber/xof/blake2xb"
+	"github.com/MarconiProtocol/kyber"
+	"github.com/MarconiProtocol/kyber/group/marshalling"
+	"github.com/MarconiProtocol/kyber/util/random"
+	"github.com/MarconiProtocol/kyber/xof/blake2xb"
 )
 
 // SuiteEd25519 implements some basic functionalities such as Group, HashFactory,
@@ -54,7 +54,7 @@ func (s *SuiteEd25519) RandomStream() cipher.Stream {
 }
 
 // NewBlakeSHA256Ed25519 returns a cipher suite based on package
-// gitlab.neji.vm.tc/marconi/kyber/xof/blake2xb, SHA-256, and the Ed25519 curve.
+// github.com/MarconiProtocol/kyber/xof/blake2xb, SHA-256, and the Ed25519 curve.
 // It produces cryptographically random numbers via package crypto/rand.
 func NewBlakeSHA256Ed25519() *SuiteEd25519 {
 	suite := new(SuiteEd25519)
@@ -62,7 +62,7 @@ func NewBlakeSHA256Ed25519() *SuiteEd25519 {
 }
 
 // NewBlakeSHA256Ed25519WithRand returns a cipher suite based on package
-// gitlab.neji.vm.tc/marconi/kyber/xof/blake2xb, SHA-256, and the Ed25519 curve.
+// github.com/MarconiProtocol/kyber/xof/blake2xb, SHA-256, and the Ed25519 curve.
 // It produces cryptographically random numbers via the provided stream r.
 func NewBlakeSHA256Ed25519WithRand(r cipher.Stream) *SuiteEd25519 {
 	suite := new(SuiteEd25519)

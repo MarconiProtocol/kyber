@@ -10,10 +10,10 @@ import (
 	"reflect"
 	"errors"
 
-	"gitlab.neji.vm.tc/marconi/kyber"
-	"gitlab.neji.vm.tc/marconi/kyber/group/internal/marshalling"
-	"gitlab.neji.vm.tc/marconi/kyber/util/random"
-	"gitlab.neji.vm.tc/marconi/kyber/xof/blake2xb"
+	"github.com/MarconiProtocol/kyber"
+	"github.com/MarconiProtocol/kyber/group/internal/marshalling"
+	"github.com/MarconiProtocol/kyber/util/random"
+	"github.com/MarconiProtocol/kyber/xof/blake2xb"
 )
 
 type SuiteCurve25519 struct {
@@ -46,7 +46,7 @@ func (s *SuiteCurve25519) RandomStream() cipher.Stream {
 }
 
 // NewBlakeSHA256Curve25519 returns a cipher suite based on package
-// gitlab.neji.vm.tc/marconi/kyber/xof/blake2xb, SHA-256, and Curve25519.
+// github.com/MarconiProtocol/kyber/xof/blake2xb, SHA-256, and Curve25519.
 //
 // If fullGroup is false, then the group is the prime-order subgroup.
 //

@@ -5,7 +5,7 @@ package nist
 import (
 	"testing"
 
-	"gitlab.neji.vm.tc/marconi/kyber/util/test"
+	"github.com/MarconiProtocol/kyber/util/test"
 )
 
 var testQR512 = NewBlakeSHA256QR512()

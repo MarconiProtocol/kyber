@@ -5,9 +5,9 @@ import (
 	"crypto/cipher"
 	"testing"
 
-	"gitlab.neji.vm.tc/marconi/kyber"
-	"gitlab.neji.vm.tc/marconi/kyber/util/key"
-	"gitlab.neji.vm.tc/marconi/kyber/util/random"
+	"github.com/MarconiProtocol/kyber"
+	"github.com/MarconiProtocol/kyber/util/key"
+	"github.com/MarconiProtocol/kyber/util/random"
 )
 
 // Suite represents the functionalities that this package can test

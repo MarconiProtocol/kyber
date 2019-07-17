@@ -36,9 +36,9 @@ import (
 	"fmt"
 	"reflect"
 
-	"gitlab.neji.vm.tc/marconi/kyber"
-	"gitlab.neji.vm.tc/marconi/kyber/share"
-	"gitlab.neji.vm.tc/marconi/kyber/sign/schnorr"
+	"github.com/MarconiProtocol/kyber"
+	"github.com/MarconiProtocol/kyber/share"
+	"github.com/MarconiProtocol/kyber/sign/schnorr"
 	"github.com/dedis/protobuf"
 )
 

@@ -10,10 +10,10 @@ import (
 	"reflect"
 	"errors"
 
-	"gitlab.neji.vm.tc/marconi/kyber"
-	"gitlab.neji.vm.tc/marconi/kyber/group/internal/marshalling"
-	"gitlab.neji.vm.tc/marconi/kyber/util/random"
-	"gitlab.neji.vm.tc/marconi/kyber/xof/blake2xb"
+	"github.com/MarconiProtocol/kyber"
+	"github.com/MarconiProtocol/kyber/group/internal/marshalling"
+	"github.com/MarconiProtocol/kyber/util/random"
+	"github.com/MarconiProtocol/kyber/xof/blake2xb"
 )
 
 type Suite128 struct {
@@ -46,7 +46,7 @@ func (s *Suite128) New(t reflect.Type) interface{} {
 }
 
 // NewBlakeSHA256P256 returns a cipher suite based on package
-// gitlab.neji.vm.tc/marconi/kyber/xof/blake2xb, SHA-256, and the NIST P-256
+// github.com/MarconiProtocol/kyber/xof/blake2xb, SHA-256, and the NIST P-256
 // elliptic curve. It returns random streams from Go's crypto/rand.
 //
 // The scalars created by this group implement kyber.Scalar's SetBytes

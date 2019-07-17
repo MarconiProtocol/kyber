@@ -5,7 +5,7 @@ import (
 	"crypto/cipher"
 	"hash"
 
-	"gitlab.neji.vm.tc/marconi/kyber"
+	"github.com/MarconiProtocol/kyber"
 
 	"golang.org/x/crypto/hkdf"
 )

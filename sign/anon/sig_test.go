@@ -6,10 +6,10 @@ import (
 	"fmt"
 	"testing"
 
-	"gitlab.neji.vm.tc/marconi/kyber"
-	"gitlab.neji.vm.tc/marconi/kyber/group/edwards25519"
-	"gitlab.neji.vm.tc/marconi/kyber/util/random"
-	"gitlab.neji.vm.tc/marconi/kyber/xof/blake2xb"
+	"github.com/MarconiProtocol/kyber"
+	"github.com/MarconiProtocol/kyber/group/edwards25519"
+	"github.com/MarconiProtocol/kyber/util/random"
+	"github.com/MarconiProtocol/kyber/xof/blake2xb"
 )
 
 // This example demonstrates signing and signature verification

@@ -15,9 +15,9 @@ package pvss
 import (
 	"errors"
 
-	"gitlab.neji.vm.tc/marconi/kyber"
-	"gitlab.neji.vm.tc/marconi/kyber/proof/dleq"
-	"gitlab.neji.vm.tc/marconi/kyber/share"
+	"github.com/MarconiProtocol/kyber"
+	"github.com/MarconiProtocol/kyber/proof/dleq"
+	"github.com/MarconiProtocol/kyber/share"
 )
 
 // Suite describes the functionalities needed by this package in order to

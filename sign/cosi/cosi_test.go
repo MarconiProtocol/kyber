@@ -7,11 +7,11 @@ import (
 	"hash"
 	"testing"
 
-	"gitlab.neji.vm.tc/marconi/kyber"
-	"gitlab.neji.vm.tc/marconi/kyber/group/edwards25519"
-	"gitlab.neji.vm.tc/marconi/kyber/sign/eddsa"
-	"gitlab.neji.vm.tc/marconi/kyber/util/key"
-	"gitlab.neji.vm.tc/marconi/kyber/xof/blake2xb"
+	"github.com/MarconiProtocol/kyber"
+	"github.com/MarconiProtocol/kyber/group/edwards25519"
+	"github.com/MarconiProtocol/kyber/sign/eddsa"
+	"github.com/MarconiProtocol/kyber/util/key"
+	"github.com/MarconiProtocol/kyber/xof/blake2xb"
 )
 
 // Specify cipher suite using AES-128, SHA512, and the Edwards25519 curve.

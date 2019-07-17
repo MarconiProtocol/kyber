@@ -3,8 +3,8 @@ package bn256
 import (
 	"testing"
 
-	"gitlab.neji.vm.tc/marconi/kyber/group/mod"
-	"gitlab.neji.vm.tc/marconi/kyber/util/random"
+	"github.com/MarconiProtocol/kyber/group/mod"
+	"github.com/MarconiProtocol/kyber/util/random"
 	"github.com/stretchr/testify/require"
 	"golang.org/x/crypto/bn256"
 )

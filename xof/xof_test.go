@@ -5,9 +5,9 @@ import (
 	"math"
 	"testing"
 
-	"gitlab.neji.vm.tc/marconi/kyber"
-	"gitlab.neji.vm.tc/marconi/kyber/xof/blake2xb"
-	"gitlab.neji.vm.tc/marconi/kyber/xof/keccak"
+	"github.com/MarconiProtocol/kyber"
+	"github.com/MarconiProtocol/kyber/xof/blake2xb"
+	"github.com/MarconiProtocol/kyber/xof/keccak"
 	"github.com/stretchr/testify/require"
 )
 

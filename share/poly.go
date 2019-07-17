@@ -16,7 +16,7 @@ import (
 	"errors"
 	"strings"
 
-	"gitlab.neji.vm.tc/marconi/kyber"
+	"github.com/MarconiProtocol/kyber"
 )
 
 // Some error definitions

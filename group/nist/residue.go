@@ -11,10 +11,10 @@ import (
 	"math/big"
 	//"encoding/hex"
 
-	"gitlab.neji.vm.tc/marconi/kyber"
-	"gitlab.neji.vm.tc/marconi/kyber/group/internal/marshalling"
-	"gitlab.neji.vm.tc/marconi/kyber/group/mod"
-	"gitlab.neji.vm.tc/marconi/kyber/util/random"
+	"github.com/MarconiProtocol/kyber"
+	"github.com/MarconiProtocol/kyber/group/internal/marshalling"
+	"github.com/MarconiProtocol/kyber/group/mod"
+	"github.com/MarconiProtocol/kyber/util/random"
 )
 
 var one = big.NewInt(1)

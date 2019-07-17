@@ -10,7 +10,7 @@ package proof
 // assumes that nodes are always "live" and never go offline,
 // but we can achieve availability via threshold kyber.
 
-import "gitlab.neji.vm.tc/marconi/kyber"
+import "github.com/MarconiProtocol/kyber"
 
 // Protocol represents the role of a participant in a clique protocol.
 // A participant is represented as a higher-order function taking a StarContext,

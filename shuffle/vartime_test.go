@@ -5,7 +5,7 @@ package shuffle
 import (
 	"testing"
 
-	"gitlab.neji.vm.tc/marconi/kyber/group/nist"
+	"github.com/MarconiProtocol/kyber/group/nist"
 )
 
 func BenchmarkBiffleP256(b *testing.B) {

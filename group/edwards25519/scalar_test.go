@@ -3,8 +3,8 @@ package edwards25519
 import (
 	"testing"
 
-	"gitlab.neji.vm.tc/marconi/kyber"
-	"gitlab.neji.vm.tc/marconi/kyber/util/random"
+	"github.com/MarconiProtocol/kyber"
+	"github.com/MarconiProtocol/kyber/util/random"
 )
 
 // SimpleCTScalar implements the scalar operations only using `ScMulAdd` by

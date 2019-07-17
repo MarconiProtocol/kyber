@@ -8,7 +8,7 @@ package proof
 import (
 	"errors"
 
-	"gitlab.neji.vm.tc/marconi/kyber"
+	"github.com/MarconiProtocol/kyber"
 )
 
 // Suite defines the functionalities needed for this package to operate

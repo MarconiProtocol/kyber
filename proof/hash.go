@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"io"
 
-	"gitlab.neji.vm.tc/marconi/kyber"
+	"github.com/MarconiProtocol/kyber"
 )
 
 // Hash-based noninteractive Sigma-protocol prover context

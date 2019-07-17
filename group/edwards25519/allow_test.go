@@ -5,7 +5,7 @@ package edwards25519
 import (
 	"testing"
 
-	"gitlab.neji.vm.tc/marconi/kyber"
+	"github.com/MarconiProtocol/kyber"
 )
 
 func TestNotVartime(t *testing.T) {

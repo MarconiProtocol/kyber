@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"testing"
 
-	"gitlab.neji.vm.tc/marconi/kyber"
-	"gitlab.neji.vm.tc/marconi/kyber/group/edwards25519"
-	"gitlab.neji.vm.tc/marconi/kyber/util/random"
+	"github.com/MarconiProtocol/kyber"
+	"github.com/MarconiProtocol/kyber/group/edwards25519"
+	"github.com/MarconiProtocol/kyber/util/random"
 )
 
 var testSuite = edwards25519.NewBlakeSHA256Ed25519()

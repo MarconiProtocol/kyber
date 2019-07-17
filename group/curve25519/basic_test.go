@@ -5,7 +5,7 @@ package curve25519
 import (
 	"testing"
 
-	"gitlab.neji.vm.tc/marconi/kyber/util/test"
+	"github.com/MarconiProtocol/kyber/util/test"
 )
 
 // Test the basic implementation of the Ed25519 curve.

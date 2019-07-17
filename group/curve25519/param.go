@@ -17,7 +17,7 @@ package curve25519
 import (
 	"math/big"
 
-	"gitlab.neji.vm.tc/marconi/kyber/group/mod"
+	"github.com/MarconiProtocol/kyber/group/mod"
 )
 
 // Parameters defining a Twisted Edwards curve (TEC).

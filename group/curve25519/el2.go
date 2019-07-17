@@ -7,7 +7,7 @@ import (
 	//"encoding/hex"
 	"crypto/cipher"
 
-	"gitlab.neji.vm.tc/marconi/kyber/group/mod"
+	"github.com/MarconiProtocol/kyber/group/mod"
 )
 
 // Elligator 2 parameters

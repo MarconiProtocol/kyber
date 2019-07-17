@@ -7,9 +7,9 @@ import (
 	"io"
 	"math/big"
 
-	"gitlab.neji.vm.tc/marconi/kyber"
-	"gitlab.neji.vm.tc/marconi/kyber/group/internal/marshalling"
-	"gitlab.neji.vm.tc/marconi/kyber/group/mod"
+	"github.com/MarconiProtocol/kyber"
+	"github.com/MarconiProtocol/kyber/group/internal/marshalling"
+	"github.com/MarconiProtocol/kyber/group/mod"
 )
 
 type basicPoint struct {

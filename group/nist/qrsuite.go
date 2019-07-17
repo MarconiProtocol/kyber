@@ -11,10 +11,10 @@ import (
 	"reflect"
 	"errors"
 
-	"gitlab.neji.vm.tc/marconi/kyber"
-	"gitlab.neji.vm.tc/marconi/kyber/group/internal/marshalling"
-	"gitlab.neji.vm.tc/marconi/kyber/util/random"
-	"gitlab.neji.vm.tc/marconi/kyber/xof/blake2xb"
+	"github.com/MarconiProtocol/kyber"
+	"github.com/MarconiProtocol/kyber/group/internal/marshalling"
+	"github.com/MarconiProtocol/kyber/util/random"
+	"github.com/MarconiProtocol/kyber/xof/blake2xb"
 )
 
 type QrSuite struct {
@@ -47,7 +47,7 @@ func (s *QrSuite) New(t reflect.Type) interface{} {
 }
 
 // NewBlakeSHA256QR512 returns a cipher suite based on package
-// gitlab.neji.vm.tc/marconi/kyber/xof/blake2xb, SHA-256, and a residue group of
+// github.com/MarconiProtocol/kyber/xof/blake2xb, SHA-256, and a residue group of
 // quadratic residues modulo a 512-bit prime.
 //
 // This group size should be used only for testing and experimentation.

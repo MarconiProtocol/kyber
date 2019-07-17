@@ -4,9 +4,9 @@ import (
 	"encoding/hex"
 	"fmt"
 
-	"gitlab.neji.vm.tc/marconi/kyber"
-	"gitlab.neji.vm.tc/marconi/kyber/group/edwards25519"
-	"gitlab.neji.vm.tc/marconi/kyber/xof/blake2xb"
+	"github.com/MarconiProtocol/kyber"
+	"github.com/MarconiProtocol/kyber/group/edwards25519"
+	"github.com/MarconiProtocol/kyber/xof/blake2xb"
 )
 
 // This example shows how to build classic ElGamal-style digital signatures

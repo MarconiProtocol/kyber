@@ -41,11 +41,11 @@ import (
 	"errors"
 	"fmt"
 
-	"gitlab.neji.vm.tc/marconi/kyber"
-	"gitlab.neji.vm.tc/marconi/kyber/sign/schnorr"
+	"github.com/MarconiProtocol/kyber"
+	"github.com/MarconiProtocol/kyber/sign/schnorr"
 
-	"gitlab.neji.vm.tc/marconi/kyber/share"
-	vss "gitlab.neji.vm.tc/marconi/kyber/share/vss/rabin"
+	"github.com/MarconiProtocol/kyber/share"
+	vss "github.com/MarconiProtocol/kyber/share/vss/rabin"
 )
 
 // Suite wraps the functionalities needed by the dkg package

@@ -8,7 +8,7 @@ package dleq
 import (
 	"errors"
 
-	"gitlab.neji.vm.tc/marconi/kyber"
+	"github.com/MarconiProtocol/kyber"
 )
 
 // Suite wraps the functionalities needed by the dleq package.

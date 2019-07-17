@@ -9,9 +9,9 @@ import (
 	"io"
 	"math/big"
 
-	"gitlab.neji.vm.tc/marconi/kyber"
-	"gitlab.neji.vm.tc/marconi/kyber/group/marshalling"
-	"gitlab.neji.vm.tc/marconi/kyber/util/random"
+	"github.com/MarconiProtocol/kyber"
+	"github.com/MarconiProtocol/kyber/group/marshalling"
+	"github.com/MarconiProtocol/kyber/util/random"
 )
 
 var one = big.NewInt(1)

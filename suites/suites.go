@@ -13,7 +13,7 @@ import (
 	"errors"
 	"strings"
 
-	"gitlab.neji.vm.tc/marconi/kyber"
+	"github.com/MarconiProtocol/kyber"
 )
 
 // Suite is the sum of all suites mix-ins in Kyber.

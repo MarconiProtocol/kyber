@@ -1,8 +1,8 @@
 package test
 
 import (
-	"gitlab.neji.vm.tc/marconi/kyber"
-	"gitlab.neji.vm.tc/marconi/kyber/util/random"
+	"github.com/MarconiProtocol/kyber"
+	"github.com/MarconiProtocol/kyber/util/random"
 )
 
 // GroupBench is a generic benchmark suite for kyber.groups.

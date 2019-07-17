@@ -8,7 +8,7 @@ import (
 	"io"
 	"strings"
 
-	"gitlab.neji.vm.tc/marconi/kyber"
+	"github.com/MarconiProtocol/kyber"
 )
 
 // ReadHexPoint reads a point from r in hex representation.

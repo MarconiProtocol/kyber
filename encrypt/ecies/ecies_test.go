@@ -3,8 +3,8 @@ package ecies
 import (
 	"testing"
 
-	"gitlab.neji.vm.tc/marconi/kyber/group/edwards25519"
-	"gitlab.neji.vm.tc/marconi/kyber/util/random"
+	"github.com/MarconiProtocol/kyber/group/edwards25519"
+	"github.com/MarconiProtocol/kyber/util/random"
 	"github.com/stretchr/testify/require"
 )
 

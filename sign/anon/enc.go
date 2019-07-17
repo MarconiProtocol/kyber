@@ -4,8 +4,8 @@ import (
 	"crypto/subtle"
 	"errors"
 
-	"gitlab.neji.vm.tc/marconi/kyber"
-	"gitlab.neji.vm.tc/marconi/kyber/util/key"
+	"github.com/MarconiProtocol/kyber"
+	"github.com/MarconiProtocol/kyber/util/key"
 )
 
 func header(suite Suite, X kyber.Point, x kyber.Scalar,
